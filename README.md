@@ -80,4 +80,30 @@ The p-value of this t-test is equal 0.06 which is above the assumed significance
  * However, the p-value for lot 3 is equal 0.04168 < 0.05. Which is sufficient to reject the null hypothesis and say that there is a statistical difference between the    population mean of 1500 pounds per square inch and the PSI across manufacturing lot 3.
  
  
- 
+ ## Study Design: MechaCar vs Competition
+ In this section we are going to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+We are going to test the correlation between the existence of active driver assistance technologies in cars and the safety of passenger.
+
+Metrics to test
+
+  * 5 Star Safety Ratings: The National Highway Traffic Safety Administration’s New Car Assessment Program (NCAP) created the 5-Star Safety Ratings Program to provide     consumers with information about the crash protection and rollover safety of new vehicles beyond what is required by Federal law. One star is the lowest rating;       five stars is the highest. More stars equal safer cars.
+
+  * Driver assistance technology options: Forward collision warning - Lane Departure Warning - Automatic Emergency Braking - Rearview video system - Blind Spot Warning     - Pedestrian Automatic Emergency Braking…
+
+Null and alternative hypothesis
+
+  * Null Hypothesis : Cars with active safety technologies are not safer than other cars.
+
+  * Adaptive Hypothesis: Cars with more active driver assistance technology options will have higher safety rating.
+
+Statistical test chosen to test the hypothesis
+
+  * Chi-Squared Test: This test can be used to determine if there is a difference in categorical frequencies between groups. For example: How many vehicles with           Automatic Emergency Braking have a safety level 5? Vs How many vehicles with no Automatic Emergency Braking have a safety level 5?
+  * It the p-value of our Chi-Squared Test is less than the assumed significance level of 0.05, then we can reject the null hypothesis and say that vehicles with           active Automatic Emergency Braking are safer.
+  
+Data needed to run the statistical test
+
+  
+  * Vehicles data for all models (including the MechaCar) containing the driver assistance technology options available in each model.
+  * The 5 star safety rating data for all vehicles.
