@@ -15,6 +15,7 @@ Using lm() we have created a multiple linear regression model and in order to de
 
 
 ![ss1](https://user-images.githubusercontent.com/111541268/206868069-dacdc00d-1a0d-49d0-b53f-b84a0be75152.png)
+   
    Figure 1: Slopes values of multiple independent variables
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -22,7 +23,8 @@ Which variables/coefficients provided a non-random amount of variance to the mpg
 Figure 1 shows that all independent variables have a slope different than zero. However, one can notice that the slope of “vehicle length” and “ground clearance” are significantly bigger than other slopes while the slope of AWD is negative. Which indicates that “vehicle length” and “ground clearance” accounts more than other independent variable for the the total variance in the dependent variable “mpg”.
 
 ![ss2](https://user-images.githubusercontent.com/111541268/206868075-2b3faade-342b-4b2d-9b99-3e336438bd0d.png)
-   Figure 2: Output of linear regression to predict MPG
+  
+  Figure 2: Output of linear regression to predict MPG
 
 
 This could be confirmed by looking at the values of Pr(>|t|) in Figure 2:
@@ -48,13 +50,18 @@ We have created a summary statistics table to show:
   * The following PSI metrics for each lot: mean, median, variance, and standard deviation. (Fig4)
 
 
+
 ![ss3](https://user-images.githubusercontent.com/111541268/206869460-913c0991-b22d-439a-b023-379e43c06d90.png)
-     Figure 3: Summary Statistics of the suspension coil's PSI
+    
+    Figure 3: Summary Statistics of the suspension coil's PSI
+
 
 
 
 ![ss4](https://user-images.githubusercontent.com/111541268/206869472-a1e6e109-9f98-4698-aa17-29ec69f88218.png)
-      Fiogure 4: Summary Statistics on PSI of the suspension coils per lot
+     
+     Fiogure 4: Summary Statistics on PSI of the suspension coils per lot
+
 
 
 
@@ -67,13 +74,17 @@ However, the summary statistics for each lot (Fig.4) shows that variance of the 
 
 In this part we have performed a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (Fig. 5) and 3 other t-tests to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch (Fig.6)
 
+
 ![ss5](https://user-images.githubusercontent.com/111541268/206870902-bd22f340-fe25-4fbd-9786-ca2fb2ef4c42.png)
-    Figure 5: T-Test for all manufacturing lots
+   
+   Figure 5: T-Test for all manufacturing lots
 
 The p-value of this t-test is equal 0.06 which is above the assumed significance level (5%). Therefore, we would state that there is not enough evidence to reject the null hypothesis and there is no overall statistical difference between the population mean of 1500 pounds per square inch and the PSI across all manufacturing.
 
+
 ![ss6](https://user-images.githubusercontent.com/111541268/206870924-0bd8cddc-8307-4aaa-bbb3-94ebbadcde75.png)
-    Figure 6: T-Test for each manufacturing lot.
+  
+  Figure 6: T-Test for each manufacturing lot.
 
  * For lot 1 and 2, the p-value are equal 1 and 0.6072 consequently. Both values are above the assumed significance level of 0.05. Therefore, there is not enough          evidence to reject the null hypothesis and there is no overall statistical difference between the PSI across lot 1 and 2 and that of population mean value.
 
