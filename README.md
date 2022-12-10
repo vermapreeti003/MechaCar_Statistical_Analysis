@@ -63,3 +63,21 @@ The design specifications for the MechaCar suspension coils dictate that the var
 By looking at the summary statistics across all manufacturing lots (Fig.3), the variance is 62.29356 < 100 which meets the design specification. Therefore, the current manufacturing data meet this design specification for all manufacturing lots in total.
 However, the summary statistics for each lot (Fig.4) shows that variance of the suspension coils in lot 3 is 170.286 which is significantly higher than 100 and definitely not meeting the design specification.
 
+## T-Tests on Suspension Coils
+
+In this part we have performed a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (Fig. 5) and 3 other t-tests to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch (Fig.6)
+
+![ss5](https://user-images.githubusercontent.com/111541268/206870902-bd22f340-fe25-4fbd-9786-ca2fb2ef4c42.png)
+    Figure 5: T-Test for all manufacturing lots
+
+The p-value of this t-test is equal 0.06 which is above the assumed significance level (5%). Therefore, we would state that there is not enough evidence to reject the null hypothesis and there is no overall statistical difference between the population mean of 1500 pounds per square inch and the PSI across all manufacturing.
+
+![ss6](https://user-images.githubusercontent.com/111541268/206870924-0bd8cddc-8307-4aaa-bbb3-94ebbadcde75.png)
+    Figure 6: T-Test for each manufacturing lot.
+
+ * For lot 1 and 2, the p-value are equal 1 and 0.6072 consequently. Both values are above the assumed significance level of 0.05. Therefore, there is not enough          evidence to reject the null hypothesis and there is no overall statistical difference between the PSI across lot 1 and 2 and that of population mean value.
+
+ * However, the p-value for lot 3 is equal 0.04168 < 0.05. Which is sufficient to reject the null hypothesis and say that there is a statistical difference between the    population mean of 1500 pounds per square inch and the PSI across manufacturing lot 3.
+ 
+ 
+ 
